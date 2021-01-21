@@ -26,10 +26,10 @@ export default {
     [
       'umi-plugin-react',
       {
-        antd: false,
+        antd: true,
         dva: false,
         dynamicImport: false,
-        title: '2.7.7',
+        title: 'umi2app',
         dll: false,
         routes: {
           exclude: [/components\//],
